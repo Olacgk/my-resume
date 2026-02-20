@@ -16,7 +16,7 @@ export const resumeConfig: ResumeConfig = {
   },
   seo: {
     title: 'Théotime CHOGNIKA — Software Engineer',
-    description: 'CV interactif de Théotime CHOGNIKA, ingénieur logiciel spécialisé en développement web, mobile et data.',
+    description: 'Ingénieur logiciel passionné par le développement web, mobile et data.',
   },
   languages: {
     default: 'fr',
@@ -143,18 +143,20 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           fr: [
-            'Intégration de nouvelles fonctionnalités sur l\'application mobile',
-            'Conception et développement d\'interfaces utilisateur interactives',
-            'Intégration frontend d\'un dashboard pour les partenaires',
+            'Implémentation des interfaces de l\'application desktop de gestion d\'assurance santé',
+            'Conception et développement d\'interfaces utilisateur interactives au pixel près',
           ],
           en: [
-            'Integration of new features into the mobile application',
-            'Design and development of interactive user interfaces',
-            'Frontend integration of a partner dashboard',
+            'Implementation of the interfaces of the desktop health insurance management application',
+            'Design and development of interactive user interfaces pixel perfect',
           ],
         },
+        env: {
+          fr: 'Vue.js / PostgreSQL',
+          en: 'Vue.js / PostgreSQL',
+        },
       },
-      techs: ['Vue js', 'Node.js', 'PostgreSQL'],
+      techs: ['Vue.js', 'PostgreSQL'],
     },
     {
       id: 'digitalops',
@@ -198,7 +200,27 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Stage académique avec prise en main du framework React.',
         en: 'Academic internship with hands-on experience using the React framework.',
       },
-      techs: ['React', 'JavaScript'],
+      techs: ['React', 'Django', 'Python', 'HTML', 'CSS', 'JavaScript'],
+      details: {
+        context: {
+          fr: 'Entreprise spécialisée en sécurité informatique.',
+          en: 'Company specialized in information security.',
+        },
+        tasks: {
+          fr: [
+            'Initiation au framework React et django',
+            'Création d\'un dashboard de gestion de la sécurité informatique',
+          ],
+          en: [
+            'Initiation to the React framework and django',
+            'Creation of a dashboard for information security management',
+          ],
+        },
+        env: {
+          fr: 'React / Django / Python / HTML / CSS / JavaScript',
+          en: 'React / Django / Python / HTML / CSS / JavaScript',
+        },
+      },
     },
     {
       id: 'gab',
@@ -211,6 +233,24 @@ export const resumeConfig: ResumeConfig = {
         en: 'IT support to staff and database management.',
       },
       techs: ['SQL Server'],
+      details: {
+        context: {
+          fr: 'Entreprise spécialisée en assurance.',
+          en: 'Company specialized in insurance.',
+        },
+        tasks: {
+          fr: [
+            'Assistance informatique au personnel et gestion de bases de données',
+          ],
+          en: [
+            'IT support to staff and database management',
+          ],
+        },
+        env: {
+          fr: 'SQL Server',
+          en: 'SQL Server',
+        },
+      },
     },
   ],
   education: [
