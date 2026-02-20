@@ -15,8 +15,8 @@ export const resumeConfig: ResumeConfig = {
     location: 'Dakar, Sénégal',
   },
   seo: {
-    title: 'Théotime CHOGNIKA — Software Engineering Student',
-    description: 'CV interactif de Théotime CHOGNIKA, étudiant en génie logiciel spécialisé en développement web, mobile et data.',
+    title: 'Théotime CHOGNIKA — Software Engineer',
+    description: 'CV interactif de Théotime CHOGNIKA, ingénieur logiciel spécialisé en développement web, mobile et data.',
   },
   languages: {
     default: 'fr',
@@ -105,8 +105,8 @@ export const resumeConfig: ResumeConfig = {
       isHighlighted: true,
       details: {
         context: {
-          fr: 'Entreprise technologique spécialisée dans le développement de solutions digitales.',
-          en: 'Technology company specialized in digital solutions development.',
+          fr: 'Entreprise technologique spécialisée dans le paiement marchands.',
+          en: 'Technology company specializing in merchant payments.',
         },
         tasks: {
           fr: [
@@ -136,7 +136,25 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Prestation full-stack pour la conception d\'un logiciel desktop de gestion d\'assurance santé.',
         en: 'Full-stack service for the development of a desktop health insurance management software.',
       },
-      techs: ['React', 'Node.js', 'PostgreSQL'],
+      details: {
+        context: {
+          fr: 'Entreprise technologique spécialisée dans le développement de solutions digitales.',
+          en: 'Technology company specializing in the development of digital solutions.',
+        },
+        tasks: {
+          fr: [
+            'Intégration de nouvelles fonctionnalités sur l\'application mobile',
+            'Conception et développement d\'interfaces utilisateur interactives',
+            'Intégration frontend d\'un dashboard pour les partenaires',
+          ],
+          en: [
+            'Integration of new features into the mobile application',
+            'Design and development of interactive user interfaces',
+            'Frontend integration of a partner dashboard',
+          ],
+        },
+      },
+      techs: ['Vue js', 'Node.js', 'PostgreSQL'],
     },
     {
       id: 'digitalops',
