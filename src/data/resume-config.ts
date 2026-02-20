@@ -75,7 +75,7 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Business Intelligence & Data', en: 'Business Intelligence & Data' },
       type: 'text',
       items: [
-        { name: { fr: 'Data analyse et reporting SQL Server', en: 'Data analysis and SQL Server reporting' } },
+        { name: { fr: 'Analyse de données et reporting SQL Server', en: 'Data analysis and SQL Server reporting' } },
       ],
     },
     {
@@ -104,6 +104,10 @@ export const resumeConfig: ResumeConfig = {
       techs: ['React', 'React Native', 'JavaScript'],
       isHighlighted: true,
       details: {
+        context: {
+          fr: 'Entreprise technologique spécialisée dans le développement de solutions digitales.',
+          en: 'Technology company specialized in digital solutions development.',
+        },
         tasks: {
           fr: [
             'Intégration de nouvelles fonctionnalités sur l\'application mobile',
@@ -146,6 +150,10 @@ export const resumeConfig: ResumeConfig = {
       },
       techs: ['React', 'Next.js', 'Node.js'],
       details: {
+        context: {
+          fr: 'Entreprise spécialisée en solutions digitales et développement web.',
+          en: 'Company specialized in digital solutions and web development.',
+        },
         tasks: {
           fr: [
             'Implémentation de composants pour un site d\'actualités sportives en Afrique',
@@ -155,6 +163,10 @@ export const resumeConfig: ResumeConfig = {
             'Implementation of components for an African sports news website',
             'Creation of an API with Node.js',
           ],
+        },
+        env: {
+          fr: 'React / Next.js / Node.js',
+          en: 'React / Next.js / Node.js',
         },
       },
     },
@@ -207,18 +219,10 @@ export const resumeConfig: ResumeConfig = {
   ],
   projects: [],
   hobbies: [
-    {
-      title: { fr: 'Musique', en: 'Music' },
-    },
-    {
-      title: { fr: 'Taekwondo', en: 'Taekwondo' },
-    },
-    {
-      title: { fr: 'Lecture', en: 'Reading' },
-    },
-    {
-      title: { fr: 'Réseaux sociaux', en: 'Social Media' },
-    },
+    { title: { fr: 'Musique', en: 'Music' } },
+    { title: { fr: 'Taekwondo', en: 'Taekwondo' } },
+    { title: { fr: 'Lecture', en: 'Reading' } },
+    { title: { fr: 'Réseaux sociaux', en: 'Social Media' } },
   ],
   theme: { preset: 'slate' },
   labels: {
